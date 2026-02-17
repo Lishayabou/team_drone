@@ -7183,6 +7183,10 @@
 		(uuid "9ea8c8b7-ed5b-4e5f-8345-dae009c87746")
 	)
 	(no_connect
+		(at 511.81 186.69)
+		(uuid "a091513c-e9db-42cc-9b16-c0699756e4fd")
+	)
+	(no_connect
 		(at 364.49 270.51)
 		(uuid "a46970a8-b9a9-4d7e-a7e2-88e0fdb74ced")
 	)
@@ -8208,6 +8212,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "3ac27e45-692e-4868-9026-7c1523822e4f")
 	)
@@ -11406,7 +11411,7 @@
 		)
 		(uuid "16323ee2-126e-4881-94da-4a98e3c99683")
 	)
-	(label "PWR_GPIO1"
+	(label "nPOWER_IN_B"
 		(at 488.95 186.69 0)
 		(effects
 			(font
@@ -13770,17 +13775,6 @@
 			(justify right)
 		)
 		(uuid "e30eb7b4-3483-448b-9e74-d0af4fbf2d25")
-	)
-	(hierarchical_label "PWR_GPIO1"
-		(shape input)
-		(at 511.81 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ede61b4e-c71e-441b-a1b8-775d763e62b7")
 	)
 	(hierarchical_label "FMU_CH1"
 		(shape output)
